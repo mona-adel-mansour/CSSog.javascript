@@ -2,8 +2,33 @@
  * file: js/js.js
  * purpose: Behaviors
  **/
-console.log('Der er kontakt til js/js.js')
 
+console.log( " Der er kontakt til js/js.js" )
+
+let a = "julemand"// streng
+let b = 23; // tal
+let c = false
+let julemandfindes = true // booleans
+
+
+const and= "pekingand" 
+
+console.log ( b * b ) 
+console.log ("findes julemanden virkelig? " + julemandenfindes ) 
+ 
+
+if(julemandenfindes === true) {
+    console.log("ja")
+} else {
+    console.log ("nej")
+}
+
+/** innerHTML: sådan */
+//document.getElementById("titel") .innerHTML="mojn do!"
+
+
+
+//alert("hej" + (a / b)
 /**
  * JavaScript Introduktion
  */
@@ -27,3 +52,7 @@ function viseSkjule() {
     // flere toggles mv. kan tilføjes her
  }
  */
+
+ function viseskjule(){
+ alert ( "tak for i dag!" )
+ }

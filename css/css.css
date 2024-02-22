@@ -33,8 +33,8 @@
 
 /* responsive billeder */
 .resp {
-  width: 100%;
-  height: autox;
+  width: 100px;
+  height: auto;
 }
 
 header,
@@ -45,9 +45,20 @@ footer {
 
 /* OPGAVE 3: Store skærme: Skjul .smaller og .burger med CSS */
 
+.smaller,
+.burger {
+  visibility: hidden;
+}
+
+
+
+
 /* OPGAVE 4: Flexbox
 
 a) Sæt .row til flex.
+
+
+
 b) Tilpas kolonnebredden til ca. 33% (hvis der er tre kolonner, eksperimenter gerne med flere!)
 c) Hvad er padding? Og hvad sker der hvis du sætter padding til fx 32px?
 d) Brug justify-content til at fordele dine kolonner. Prøv alle muligheder.
@@ -55,6 +66,14 @@ d) Brug justify-content til at fordele dine kolonner. Prøv alle muligheder.
 Se: https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-justify-content
 
 */
+.row {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+
 
 /* OPGAVE 5: Responsivt design
 
@@ -80,6 +99,11 @@ Herunder ser du de responsive regler, der skal redigeres.
     /* brug dine variabler her! */
     background-color: var(--bgB); 
   }
+}
+
+.row {
+  display:block;
+  
 }
 
 /* ... fortsæt selv med breakpoints ... */
